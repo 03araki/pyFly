@@ -7,7 +7,8 @@ pyFly は Blackfly などの FLIR (PointGrey) 製カメラを対象とした Fly
 ## Requirements
 
 - Ubuntu 16.04/18.04 amd64, arm64
-- opencv-python
+- python3-numpy
+- python3-opencv
 - flycapture2 (obtained from FLIR Web site)
 
 ## Installation
@@ -58,7 +59,6 @@ pyFly/ 内の pyFly.so を import することで python からカメラ画像�
 ```
 import pyFly
 import cv2
-import numpy as np
 
 if not pyFly.initCamera(0): # 初期化処理  引数: 0-全画素取得, 1-1/2サイズ
     print('camera is not detected')
