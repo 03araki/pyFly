@@ -25,7 +25,7 @@ sudo apt install libraw1394-11 libavcodec57 libavformat57 libswscale4 libswresam
 sudo sh install_flycapture.sh
 ```
 
-- Ubuntu 18.04 arm64 (for example Jetson Nano v43) の場合 (公式にはサポートされていないようですが，ubuntu16.04-arm64 で動作することを確認しています）
+- Ubuntu 18.04 arm64 (for example, Jetson Nano with Jetpack v43) の場合 (公式にはサポートされていないようですが，ubuntu16.04-arm64 で動作することを確認しています）
 ```
 tar xvzv flycapture2-2.13.3.31_arm64_Ubuntu16.04.tar.gz
 cd flycapture2-2.13.3.31_arm64/
